@@ -1,0 +1,410 @@
+/* @font-face {
+    font-family: 'K24KurdishLight-Light';
+    src: url('/font/K24KurdishLight-Light.eot'); 
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), 
+         url('/font/K24KurdishLight-Light.woff') format('woff'), 
+         url('/font/K24KurdishLight-Light.ttf')  format('truetype'), 
+         url('webfont.svg#svgFontName') format('svg'); 
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+
+  body{
+    font-family: 'Fredoka One', cursive;
+    
+  }
+
+
+  .navbar{
+      background: none !important;
+     
+  }
+
+
+  .navbar .navbar-collapse{
+      text-align: center;
+      margin: 10px;
+    
+  }
+
+.navbar .navbar-nav li {
+    padding:  0 30px;
+}
+.navbar-brand{
+    
+    color: #ee5253 !important;
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    
+    color: #5f27cd !important;
+    
+ }
+
+.navbar .navbar-nav li  a{
+   color: #5f27cd !important;
+   font-size: 15px;
+   transition: 0.5s;
+   
+}
+.navbar .navbar-nav li  a:hover{
+  
+    transform: translateY(-10px);
+ }
+.navbar .navbar-nav li  a:hover{
+    color: #ee5253 !important;
+    font-size: 15px;
+    
+ }
+
+
+ /*-------bannner----*/
+
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+.promo-title:hover{
+    transform: translateY(-10px);
+    color: #5f27cd;
+    cursor: pointer;
+}
+
+
+.bottom-img{
+    width: 100%;
+}
+
+/*-----Features section-------*/
+
+#Features{
+padding: 80px 0;
+}
+
+.Features-img{
+    width: 160px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.Features-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.Features{
+    padding: 20px;
+}
+
+.title{
+    transition: 0.5s;
+}
+
+.title:hover{
+    color:#ee5253 ;
+    transform: translateY(-30px);
+    cursor: pointer;
+
+}
+
+.Features h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+
+
+.Features h4:hover{
+    transform: translateY(-10px);
+    color: #ee5253;
+    cursor: pointer;
+}
+
+.title::before{
+    content: '';
+    background: #5f27cd;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 20px;
+    
+}
+/* .title::after{
+    content: '';
+    background: #5f27cd;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    border-radius: 10px;
+} */
+
+#Features .btn-primary{
+    border-radius: 20px;
+    border: none;
+    background:#5f27cd  ;
+}
+
+/*-------Services section-----*/
+
+#Services{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.Services-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    transition: 0.5s;
+}
+.Services-title:hover{
+  color: #ee5253;
+  transform: translateY(-10px);
+
+
+}
+
+#Services ul li{
+    margin: 10px 0;
+     transition: 0.7s;
+}
+#Services ul li:hover{
+    transform: translateX(-10px);
+
+    color: #4b7bec;
+}
+
+
+#Services ul{
+    margin-left: 23px;
+}
+
+/*--------testemonial card-------*/
+
+#testemonial{
+    margin: 100px 0;
+}
+
+.testemonial{
+    border-left: solid 4px #ee5253;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testemonial img{
+    height: 60px;
+    width: 60px;
+    box-sizing: 50%;
+    margin: 0 10px;
+    transition: 1s;
+}
+.testemonial img:hover{
+    transform: scale(1.1);
+  
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.user-details:hover{
+    transform: translateY(-10px);
+
+    
+}
+
+/*--------social-media section----------*/
+
+#social-media{
+    background: #f8f8fa;
+    padding: 100px 0;
+}
+
+##social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+width: 60px;
+transition: 0.5s;
+padding: 0 10px;
+}
+
+.social-icons a:hover img{
+transform: translateY(-10px);
+}
+/*-----Features section-------*/
+
+#About-us{
+    padding: 80px ;
+    }
+    
+    .About img{
+        width: 160px;
+        margin-top: 20px;
+        transition: 1s;
+    }
+    
+ .About img:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .About{
+        padding: 20px;
+    }
+    
+    .title{
+        transition: 0.5s;
+    }
+    
+    .title:hover{
+        color:#ee5253 ;
+        transform: translateY(-30px);
+        cursor: pointer;
+    
+    }
+    
+    .About h4{
+        padding: 5px;
+        margin-top: 25px;
+        text-transform: uppercase;
+        transition: 0.6s;
+    }
+    
+    
+    
+    .About h4:hover{
+        transform: translateY(-10px);
+        color: #ee5253;
+        cursor: pointer;
+    }
+    
+    .title::before{
+        content: '';
+        background: #5f27cd;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+        border-radius: 20px;
+        
+    }
+    /* .title::after{
+        content: '';
+        background: #5f27cd;
+        height: 10px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display: block;
+        transform: translateY(8px);
+        border-radius: 10px;
+    } */
+    
+    /* #About .btn-primary{
+        border-radius: 20px;
+        border: none;
+        background:#5f27cd  ;
+    } */
+
+/*-----Footer section---------*/
+
+#footer{
+   color: #000;
+}
+
+.footer-img{
+    width: 100%;
+
+}
+
+.footer-box{
+padding: 5px;
+
+
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+   transition: 0.6s;
+}
+.footer-box img:hover{
+    transform: translateY(-20px);
+
+}
+
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    transition: 0.5s;
+    
+}
+
+.footer-box .fas:hover{
+    transform: translateY(-10px);
+
+}
+
+.footer-box  .form-control{
+    box-shadow:  none;
+    border:  solid 1px black;
+    margin-top: 20px;
+   max-width: 250px;
+  
+ 
+}
+
+.footer-box .btn-outline-primary{
+    box-shadow: none;
+    margin-top: 30px;
+    margin: 10px;
+}
+
+hr{
+    background-color: black;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/*--------Responsive-----------*/
+
+
+@media(max-width: 600px){
+
+}
